@@ -1,0 +1,25 @@
+{
+  "name": "npm-bonus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --out-dir public --port 8000",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Dummy Test Completed\" exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.5.0",
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
